@@ -156,13 +156,4 @@ Our approach uses 7,000 samples (42,000 total outputs) and costs ~$42 on 4x A40 
 Thanks to the Hugging Face team for their [open-r1](https://github.com/huggingface/open-r1) project.
 
 ## Citation
-If this project aids your work, please cite it as:
-```
-@misc{open-rs,
-  title = {Reinforcement Learning for Reasoning in Small LLMs: What Works and What Doesn't},
-  url = {https://github.com/knoveleng/open-rs},
-  author = {Quy-Anh Dang, Chris Ngo},
-  month = {March},
-  year = {2025}
-}
-```
+Coming soon.
