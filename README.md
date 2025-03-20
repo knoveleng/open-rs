@@ -10,7 +10,7 @@ We focus on a 1.5-billion-parameter model, `DeepSeek-R1-Distill-Qwen-1.5B`, trai
 
 These results showcase RL-based fine-tuning as a cost-effective approach for small LLMs, making reasoning capabilities accessible in resource-limited settings. We open-source our code, models, and datasets to support further research.
 
-![Performance Metrics](assets/performances.png)
+![Performance Metrics](assets/overall.png)
 
 ## Resources
 
