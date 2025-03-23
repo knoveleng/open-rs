@@ -99,7 +99,7 @@ class GRPOScriptArguments(ScriptArguments):
     )
     repetition_max_penalty: float = field(
         default=-1.0,
-        metadata={"help": "Maximum (negative) penalty for for repetition penalty reward"},
+        metadata={"help": "Maximum (negative) penalty for repetition penalty reward"},
     )
     code_language: str = field(
         default="python",
