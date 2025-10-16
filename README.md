@@ -1,7 +1,7 @@
 # Open RS
 > Please press ⭐ button if you feel helpful!
 
-This repository hosts the code and datasets for the **Open RS** project, accompanying the paper [*Reinforcement Learning for Reasoning in Small LLMs: What Works and What Doesn’t*](https://arxiv.org/abs/2503.16219). The project explores enhancing reasoning capabilities in small large language models (LLMs) using reinforcement learning (RL) under resource-constrained conditions.
+This repository hosts the code and datasets for the **Open RS** project, accompanying the paper *Reinforcement Learning for Reasoning in Small LLMs: What Works and What Doesn’t*. The project explores enhancing reasoning capabilities in small large language models (LLMs) using reinforcement learning (RL) under resource-constrained conditions.
 
 We focus on a 1.5-billion-parameter model, `DeepSeek-R1-Distill-Qwen-1.5B`, trained on 4 NVIDIA A40 GPUs (48 GB VRAM each) within 24 hours. By adapting the Group Relative Policy Optimization (GRPO) algorithm and leveraging a curated, compact mathematical reasoning dataset, we conducted three experiments to assess performance and behavior. Key findings include:
 
@@ -13,21 +13,6 @@ These results showcase RL-based fine-tuning as a cost-effective approach for sma
 
 ![Performance Metrics](assets/overall.png)
 
-## Resources
-
-### Models
-- [Open-RS1](https://huggingface.co/knoveleng/Open-RS1)
-- [Open-RS2](https://huggingface.co/knoveleng/Open-RS2)
-- [Open-RS3](https://huggingface.co/knoveleng/Open-RS3)
-- Additional models in training: [knoveleng/OpenRS-GRPO](https://huggingface.co/knoveleng/OpenRS-GRPO/commits/main), [quyanh/OpenRS-GRPO](https://huggingface.co/quyanh/OpenRS-GRPO/commits/main)
-
-### Datasets
-- [open-s1](https://huggingface.co/datasets/knoveleng/open-s1)
-- [open-deepscaler](https://huggingface.co/datasets/knoveleng/open-deepscaler)
-- [open-rs](https://huggingface.co/datasets/knoveleng/open-rs) (used in Experiments 2 and 3)
-
-### Collection
-- [Open-RS Collection](https://huggingface.co/collections/knoveleng/open-rs-67d940abc201a7e7f252ca4e)
 
 ## Installation
 
@@ -156,16 +141,3 @@ Our approach uses 7,000 samples (42,000 total outputs) and costs ~$42 on 4x A40 
 ## Acknowledgements
 Thanks to the Hugging Face team for their [open-r1](https://github.com/huggingface/open-r1) project.
 
-## Citation
-If this project aids your work, please cite it as:
-```
-@misc{dang2025reinforcementlearningreasoningsmall,
-      title={Reinforcement Learning for Reasoning in Small LLMs: What Works and What Doesn't}, 
-      author={Quy-Anh Dang and Chris Ngo},
-      year={2025},
-      eprint={2503.16219},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2503.16219}, 
-}
-```
