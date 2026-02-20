@@ -159,13 +159,12 @@ Thanks to the Hugging Face team for their [open-r1](https://github.com/huggingfa
 ## Citation
 If this project aids your work, please cite it as:
 ```
-@misc{dang2025reinforcementlearningreasoningsmall,
-      title={Reinforcement Learning for Reasoning in Small LLMs: What Works and What Doesn't}, 
-      author={Quy-Anh Dang and Chris Ngo},
-      year={2025},
-      eprint={2503.16219},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2503.16219}, 
+@inproceedings{
+    dang2025reinforcement,
+    title={Reinforcement Learning for Reasoning in Small {LLM}s: What Works and What Doesn{\textquoteright}t},
+    author={Quy-Anh Dang and Chris Ngo},
+    booktitle={Logical and Symbolic Reasoning in Language Models @ AAAI 2026},
+    year={2025},
+    url={https://arxiv.org/abs/2601.19375}
 }
 ```
