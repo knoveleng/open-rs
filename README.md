@@ -160,11 +160,11 @@ Thanks to the Hugging Face team for their [open-r1](https://github.com/huggingfa
 If this project aids your work, please cite it as:
 ```
 @inproceedings{
-    dang2025reinforcement,
+    dang2026reinforcement,
     title={Reinforcement Learning for Reasoning in Small {LLM}s: What Works and What Doesn{\textquoteright}t},
     author={Quy-Anh Dang and Chris Ngo},
     booktitle={Logical and Symbolic Reasoning in Language Models @ AAAI 2026},
-    year={2025},
-    url={https://arxiv.org/abs/2601.19375}
+    year={2026},
+    url={https://openreview.net/forum?id=3pWL6Zxc4A}
 }
 ```
